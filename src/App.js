@@ -8,6 +8,7 @@ import CustomNodeFlow from './pages/Process/CustomNodeFlow';
 import NCdetector from './pages/NCdetector';
 import About from './pages/About';
 import Login from './pages/login/LoginForm';
+import SamplePdf1 from './components/Pdf_forms/SamplePdf1';
 import RegisterForm from './pages/signup/RegisterForm';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path='' element={<About />} />
           <Route path='about' element={<About />}  />
+          <Route path='pdf' element={<SamplePdf1 />}/>
           <Route path='login' element={<Login />}  />
           <Route path='register' element={<RegisterForm />}  />
           <Route path='process' element={<Process />} />

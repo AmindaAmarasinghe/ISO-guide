@@ -4,6 +4,7 @@ import Tab from '@mui/material/Tab';
 import TabContext from '@mui/lab/TabContext';
 import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
+import { Button } from "react-bootstrap";
 import 'reactflow/dist/style.css';
 import ReactFlow, { Background, MarkerType } from 'reactflow';
 import Node from './Node.js';
@@ -57,8 +58,8 @@ export default function Tabs(Pvalue, changeValue) {
       <TabContext value={value}>
         <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
           <TabList onChange={handleChange} aria-label="lab API tabs example">
-            <Tab label={<button>item 1</button>} value="1" />
-            <Tab label={<>hi<ArrowRight /><button>item 1</button></>} value="2" />
+            <Tab label={<Button>item 1</Button>} value="1" />
+            <Tab label={<Button>item 2</Button>} value="2" />
             <Tab label="Item Three" value="3" />
           </TabList>
         </Box>
