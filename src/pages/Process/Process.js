@@ -49,7 +49,7 @@ const initialEdges = [
 ];
 
 export default function Process (){
-  const [value, setValue] = React.useState('1');
+  const [value, setValue] = React.useState("1");
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -57,11 +57,6 @@ export default function Process (){
   return (
     <>
       <div>
-        <div className="row bg-info">
-        <div className="col-4"><Button>process 1</Button></div>
-        <div className="col-4"><Button>process 2</Button></div>
-        </div>
-        
         <Tabs Pvalue={value} changeValue={handleChange}/>
       </div>
     </>

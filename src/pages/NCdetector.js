@@ -4,12 +4,18 @@ import {useRef} from 'react';
 import Select from 'react-select';
 import  { Navigate } from 'react-router-dom';
 
-const options = [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "React",
-    "Redux",
+const pro_options = [
+    "Chocolate cake",
+    "Date cake",
+    "Vanilla cake",
+    "Chocolate gateau",
+];
+const NC_options = [
+    "Hair pieces",
+    "Paper pieces",
+    "Fungal growth and taste",
+    "Insects",
+    "Burn or overcook"
 ];
 
 
@@ -86,7 +92,7 @@ class NCdetector extends React.Component{
             <div class="col-12">
                 <div class="card text-black" style={{ borderRadius: "25px" }}>
                 <div class="card-body p-md-5">
-                    <div class="row justify-content-center">
+                    <div class="row d-flex justify-content-center">
                     <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
                         
                         <form onSubmit={this.handleSubmit}>
@@ -115,7 +121,7 @@ class NCdetector extends React.Component{
                             </label><br></br>
                             <select onChange={this.onOptionChangeHandler}>
                                 <option>Please choose one option</option>
-                                {options.map((option, index) => {
+                                {pro_options.map((option, index) => {
                                     return (
                                         <option key={index}>
                                             {option}
@@ -133,7 +139,7 @@ class NCdetector extends React.Component{
                             </label><br></br>
                             <select onChange={this.onOptionChangeHandler}>
                                 <option>Please choose one option</option>
-                                {options.map((option, index) => {
+                                {NC_options.map((option, index) => {
                                     return (
                                         <option key={index}>
                                             {option}
@@ -149,6 +155,7 @@ class NCdetector extends React.Component{
                                 variant="primary"
                                 size="sm"
                                 onClick={this.handleSubmit}
+                                style={{marginTop:'70px'}}
                             >
                                 Submit
                             </Button>
@@ -156,7 +163,7 @@ class NCdetector extends React.Component{
                     </div>
                     <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2" style={{display: "flex", justifyContent:"center"}}>
                         <img
-                        src="logo192.png"
+                        src="img/start.png"
                         class="img-fluid"
                         alt=""
                         width={'80%'}

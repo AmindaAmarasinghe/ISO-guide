@@ -38,15 +38,55 @@ const initialEdges = [
       strokeWidth: 2,
       stroke: '#FF0072',
     },},
-    { id: 'e1-2', source: '2', target: '4' },
-    { id: 'e1-2', source: '3', target: '4' },
-    { id: 'e1-2', source: '4', target: '5' },
-    { id: 'e1-2', source: '5', target: '6' },
-    { id: 'e1-2', source: '5', target: '7' },
+    { id: 'e1-2', source: '2', target: '4' ,markerEnd: {
+      type: MarkerType.ArrowClosed,
+      width: 20,
+      height: 20,
+      color: '#FF0072',
+    },style: {
+      strokeWidth: 2,
+      stroke: '#FF0072',
+    },},
+    { id: 'e1-2', source: '3', target: '4' ,markerEnd: {
+      type: MarkerType.ArrowClosed,
+      width: 20,
+      height: 20,
+      color: '#FF0072',
+    },style: {
+      strokeWidth: 2,
+      stroke: '#FF0072',
+    },},
+    { id: 'e1-2', source: '4', target: '5' ,markerEnd: {
+      type: MarkerType.ArrowClosed,
+      width: 20,
+      height: 20,
+      color: '#FF0072',
+    },style: {
+      strokeWidth: 2,
+      stroke: '#FF0072',
+    },},
+    { id: 'e1-2', source: '5', target: '6' ,markerEnd: {
+      type: MarkerType.ArrowClosed,
+      width: 20,
+      height: 20,
+      color: '#FF0072',
+    },style: {
+      strokeWidth: 2,
+      stroke: '#FF0072',
+    },},
+    { id: 'e1-2', source: '5', target: '7' ,markerEnd: {
+      type: MarkerType.ArrowClosed,
+      width: 20,
+      height: 20,
+      color: '#FF0072',
+    },style: {
+      strokeWidth: 2,
+      stroke: '#FF0072',
+    },},
 ];
 
 export default function Tabs(Pvalue, changeValue) {
-  const [value, setValue] = React.useState(Pvalue);
+  const [value, setValue] = React.useState("1");
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -57,10 +97,9 @@ export default function Tabs(Pvalue, changeValue) {
     <Box sx={{ width: '100%', typography: 'body1' }}>
       <TabContext value={value}>
         <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-          <TabList onChange={handleChange} aria-label="lab API tabs example">
-            <Tab label={<Button>item 1</Button>} value="1" />
-            <Tab label={<Button>item 2</Button>} value="2" />
-            <Tab label="Item Three" value="3" />
+          <TabList  onChange={handleChange} aria-label="lab API tabs example">
+            <Tab label={<Button>1</Button>} value="1" />
+            <Tab label={<Button>2</Button>} value="2" />
           </TabList>
         </Box>
         <TabPanel value="1">
@@ -71,8 +110,7 @@ export default function Tabs(Pvalue, changeValue) {
           </div>
           
         </TabPanel>
-        <TabPanel value="2">Item Two</TabPanel>
-        <TabPanel value="3">Item Three</TabPanel>
+        <TabPanel value="2"></TabPanel>
       </TabContext>
     </Box>
   );
