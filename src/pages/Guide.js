@@ -15,7 +15,7 @@ class Guide extends React.Component {
                 <img src="img/start.png" style={{scale:'0.8'}}></img>
 
               </div>
-              <GuideFlow />
+              <div name="flow"><GuideFlow /></div>
               <hr></hr>
               <div className="row p-5">
                 <p>ISO 22000:2018 standard comes with three major concepts.</p>

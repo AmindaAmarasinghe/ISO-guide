@@ -19,7 +19,7 @@ const nodeTypes = {
 const initialNodes = [
   { id: '1', position: { x: 0, y: 100 }, type:'selectorNode', data: { label: 'Scope', link: 'scope'}, style: { border: '1px solid #777', padding: 10 }},
   { id: '2', position: { x: 300, y: 100 }, type:'selectorNode', data: { label: 'Normative References', link: 'normativeReferences'}, style: { border: '1px solid #777', padding: 10 } },
-  { id: '3', position: { x: 600, y: 100 }, type:'selectorNode', data: { label: 'Terms and Definitions', link: 'normativeReferences'}, style: { border: '1px solid #777', padding: 10 } },
+  { id: '3', position: { x: 600, y: 100 }, type:'selectorNode', data: { label: 'Terms and Definitions', link: 'tac'}, style: { border: '1px solid #777', padding: 10 } },
   { id: '4', position: { x: 1000, y: 100 }, type:'selectorNode', data: { label: 'Context of the Organization', link: 'orgContext' }, style: { border: '1px solid #777', padding: 10 } },
   { id: '5', position: { x: 1400, y: 100 }, type:'selectorNode', data: { label: 'Leadership', link: 'leadership' }, style: { border: '1px solid #777', padding: 10 } },
   { id: '6', position: { x: 0, y: 400 }, type:'reverseSelectorNode', data: { label: 'Improvement', link: 'improvement'}, style: { border: '1px solid #777', padding: 10 }},

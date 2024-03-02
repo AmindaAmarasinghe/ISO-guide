@@ -18,7 +18,7 @@ export default memo(({ data }) => {
         position="left"
         style={{ background: '#555' }}
       />
-      <div className='row d-flex justify-content-center align-items-center text-center' style={{cursor:'pointer', width:'150px', height:'100px'}} onClick={()=>{window.location.assign(data.link)}}>
+      <div className='row d-flex justify-content-center' style={{cursor:'pointer', width:'150px', height:'100px'}} onClick={()=>{window.location.assign(data.link)}}>
         <div className='col-7'>
         {data.label}
         </div>
