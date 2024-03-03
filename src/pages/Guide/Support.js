@@ -8,9 +8,10 @@ export default function Support({left, leftLink, right, rightLink}){
     <div className="col-2 d-flex justify-content-center" style={{minHeight:"100vh", backgroundColor:"#6BA8F3", boxShadow: '0 0px 26px 0 rgba(0,0,0,0.2), 0 0px 28px 0 rgba(0,0,0,0.19)'}}><ToLeft leftLink={leftLink} title={left}/></div>
     <div className="col-8 p-5">
         <h1 className="text-center p-2 bg-info m-1">Support</h1>
-        <img src="img/start.png" style={{scale:'0.5'}}></img>
-        <h4>7.1 Resources</h4>
-        <p><h4>7.1.1 General</h4> </p>
+        <div className="d-flex p-5" style={{justifyContent:'center'}}><img src="img/Images/support.jpg" style={{maxHeight:'400px'}}></img></div>
+     
+        <h3>7.1 Resources</h3>
+        <h4>7.1.1 General</h4>
         <p>You need to determine and provide the resources that essential for the establishment, implementation, maintenance, update and continual improvement of the FSMS.</p>
         <p>Therefore, your organization shall consider;</p>
         <ul>
@@ -32,7 +33,7 @@ export default function Support({left, leftLink, right, rightLink}){
             <li>Requirements to interested parties in the food chain. </li>
         </ul>
         <h3>6.2 Objectives of the food safety management system and planning to achieve them</h3>
-        <h4>6.2.1 The organization shall establish FSMS objectives at relevant functions and levels. These objectives shall:</h4>
+        <h4>6.2.1</h4> The organization shall establish FSMS objectives at relevant functions and levels. These objectives shall:
         <ul>
             <li>Land, vessels, buildings and associated utilities</li>
             <li>Equipment, including hardware and software</li>
@@ -50,7 +51,7 @@ export default function Support({left, leftLink, right, rightLink}){
         </ul>
         <p>The above factors can differ according to the products and services you provie. </p>
 
-        <h3>7.1.5 Externally developed elements of the food safety management system</h3>
+        <h4>7.1.5 Externally developed elements of the food safety management system</h4>
         <p>When you use externally developed elements such as; PRPs, hazard analysis and the hazard control plan, (Don’t worry…..we will let you kow what are thses abbreviations! Also you can refer normative references - Clause 2.0) you need to ensure that these elements are;</p>
         
         <ul>
@@ -60,7 +61,7 @@ export default function Support({left, leftLink, right, rightLink}){
             <li>implemented, maintained and updated as required by this document</li>
             <li>retained as documented information.</li>
         </ul>
-        <h3>7.1.6 Control of externally provided processes, products or services</h3>
+        <h4>7.1.6 Control of externally provided processes, products or services</h4>
         <p>The organization shall:</p>
         <ul>
             <li>establish and apply criteria for the evaluation, selection, monitoring of performance and re-evaluation of external providers of processes, products and services.</li>
@@ -68,7 +69,7 @@ export default function Support({left, leftLink, right, rightLink}){
             <li>ensure that externally provided processes, products or services do not adversely affect the organization's ability to consistently meet the requirements of the FSMS</li>
             <li>retain documented information of these activities</li>
         </ul>
-        <h1>Competence</h1>
+        <h3>7.2 Competence</h3>
         <p>The organization shall:</p>
         <ul>
             <li>determine the necessary competence of people, including external providers, doing work under its control that affects its food safety performance and effectiveness of the FSMS</li>
@@ -77,7 +78,7 @@ export default function Support({left, leftLink, right, rightLink}){
             <li>where applicable, take actions to acquire the necessary competence, and evaluate the effectiveness of the actions taken</li>
             <li>retain appropriate documented information as evidence of competence.</li>
         </ul>
-        <h1>7.3 Awareness</h1>
+        <h3>7.3 Awareness</h3>
         <p>You must ensure that all relevant persons doing work under the organization’s control shall be aware of:</p>
         <ul>
             <li>the food safety policy</li>
@@ -85,8 +86,8 @@ export default function Support({left, leftLink, right, rightLink}){
             <li>their individual contribution to the effectiveness of the FSMS, including the benefits of improved food safety performance</li>
             <li>the implications of not conforming with the FSMS requirements.</li>
         </ul>
-        <h1>7.4 Communication</h1>
-        <h3>7.4.1 General</h3>
+        <h3>7.4 Communication</h3>
+        <h4>7.4.1 General</h4>
         <p>You need to determine the internal and external communications relevant to the FSMS including</p>
         <ul>
             <li>a) on what it will communicate</li>
@@ -117,7 +118,7 @@ export default function Support({left, leftLink, right, rightLink}){
         Designated persons shall have defined responsibility and authority for the external communication of any information concerning food safety. The information obtained through external communication shall be included as input for management review and for updating the FSMS.
         </p>
         <p>You must keep evidence of external communication as documented information.</p>
-        <h3>7.4.3 Internal communication</h3>
+        <h4>7.4.3 Internal communication</h4>
         <p>The organization shall establish, implement and maintain an effective system for communicating issues having an impact on food safety.</p>
         <p>To maintain the effectiveness of the FSMS, your organization shall ensure that the food safety team is informed in a timely manner of changes in the following,</p>
         <ul>
@@ -136,7 +137,7 @@ export default function Support({left, leftLink, right, rightLink}){
             <li>m) other conditions that have an impact on food safety.</li>
         </ul>
         <p>The food safety team shall ensure that this information is included when updating the FSMS. Top management shall ensure that relevant information is included as input to the management review</p>
-        <h4>7.5 Documented information</h4>
+        <h3>7.5 Documented information</h3>
         <h4>7.5.1 General</h4>
         <p>Your FSMS shall include,</p>
         <ul>

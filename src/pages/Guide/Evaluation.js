@@ -8,71 +8,106 @@ export default function Evaluation({left, leftLink, right, rightLink}){
     <div className="col-2 d-flex justify-content-center" style={{minHeight:"100vh", backgroundColor:"#6BA8F3", boxShadow: '0 0px 26px 0 rgba(0,0,0,0.2), 0 0px 28px 0 rgba(0,0,0,0.19)'}}><ToLeft leftLink={leftLink} title={left}/></div>
     <div className="col-8 p-5">
         <h1 className="text-center p-2 bg-info m-1">Evaluation</h1>
-        <img src="img/start.png" style={{scale:'0.5'}}></img>
-        <h4>6.1 Actions to address risks and opportunities</h4>
-        <p>6.1.1 When planning FSMS, you need to consider the internal and external issues (4.1), needs and expectations of interested parties (4.2) and scope of the FSMS (4.3) to determine the <h4>risks and opportunities.</h4> </p>
-        <p>Then you need to address those risks and opportunities in order to,</p>
-        <ul>
-            <li>Assure that the FSMS can achieve its intended results</li>
-            <li>Enhance desirable effects</li>
-            <li>Prevent, or reduce, undesired effects</li>
-            <li>Achieve continual improvement</li>
-        </ul>
+        <div className="d-flex p-1" style={{justifyContent:'center'}}><img src="img/Images/OIP.jpeg" style={{scale:'0.7'}}></img></div>
 
-        <h4>6.1.2 Your organization shall plan the following activities</h4>
-        <ul>
-            <li>Actions to address risks and opportunities</li>
-            <li>Methods to</li>
-            <li>The policy should provide details about the organization’s commitment to satisfy food safety requirements, including statutory and regulatory requirements and mutually agreed customer requirements related to food safety.</li>
-            <li>It should address internal and external communication</li>
-            <li>Need to include the commitment to continual improvement of the FSMS</li>
-            <li>Should address the need to ensure competencies related to food safety.</li>
-        </ul>
-        <h5>6.1.3 The actions taken by the organization to address the risks and opportunities shall be proportionate to: </h5>
-        <ul>
-            <li>The impact on food safety requirements</li>
-            <li>You need to communicate the food safety policy with all levels within the organization and also all the employees shall understand it.</li>
-            <li>Apart from that you must communicate the food safety policy with appropriate interested parties that you have defined previously. </li>
-        </ul>
-        
-        <h4>5.3 Organizational roles, responsibilities and authorities</h4>
-        5.3.1 The top management of your organization shall assign responsibilities and authorities for relevant roles and make sure that they are communicated and understood well among all the employees within the organization.
-        <p>Assigning responsibilities and authorities for relevant roles in order to,</p>
-        <ul>
-            <li>Ensure that your FSMS comply with the standard (ISO 22000:2018) requirements.</li>
-            <li>The conformity of food products and services to customers</li>
-            <li>Requirements to interested parties in the food chain. </li>
-        </ul>
-        <h3>6.2 Objectives of the food safety management system and planning to achieve them</h3>
-        <h4>6.2.1 The organization shall establish FSMS objectives at relevant functions and levels. These objectives shall:</h4>
-        <ul>
-            <li>Consistent with the food safety policy</li>
-            <li>Be measurable</li>
-            <li>Take into account applicable food safety requirements, including saturatory, regulatory and customer requirements.</li>
-            <li>Be monitored and verified.</li>
-            <li>Be communicated</li>
-            <li>Be maintained and updated as appropriate.</li>
-        </ul>
-        You need to maintain documented information on FSMS objectives.
-        <h4>6.2.2 You need to determine the following when planning on how to achieve FSMS objectives</h4>
-        <ul>
-            <li>What will be done</li>
-            <li>What resources will be required</li>
-            <li>Who will be responsible</li>
-            <li>When it will be completed</li>
-            <li>How the results will be evaluated</li>
-        </ul>
-        <h3>6.3 Planning of changes</h3>
-        <p>When the organization determines the need for changes to the FSMS, including personal changes, those changes shall be carried out and communicated in a planned manner. </p>
-        <h4>6.2.1 The organization shall establish FSMS objectives at relevant functions and levels. These objectives shall:</h4>
-        <p>In that case you nee to consier:</p>
-        <ul>
-            <li>The purpose of changes and their potential consequences.</li>
-            <li>The continued integrity of the FSMS</li>
-            <li>The availability of resources to effectively implement the changes</li>
-            <li>The allocation or re-allocation of responsibilities and authorities </li>
-        </ul>
-        <div className="col-12 d-flex justify-content-center align-items-center" ><Button onClick={()=>{
+        <p style={{textAlign:"justify"}}><strong><span>9.1 Monitoring, measurement, analysis and evaluation&nbsp;</span></strong></p>
+<p></p>
+<p style={{textAlign:"justify"}}><strong><span>9.1.1 General&nbsp;</span></strong></p>
+<p></p>
+<p style={{textAlign:"justify"}}><span>The organization shall determine</span></p>
+<p></p>
+<p style={{textAlign:"justify"}}><span>a) what needs to be monitored and measured</span></p>
+<p style={{textAlign:"justify"}}><span>b) the methods for monitoring, measurement, analysis and evaluation, as applicable, to ensure valid results</span></p>
+<p style={{textAlign:"justify"}}><span>c) when the monitoring and measuring shall be performed</span></p>
+<p style={{textAlign:"justify"}}><span>d) when the results from monitoring and measurement shall be analyzed and evaluated</span></p>
+<p style={{textAlign:"justify"}}><span>e) who shall analyze and evaluate the results from monitoring and measurement.&nbsp;</span></p>
+<p></p>
+<p></p>
+<p></p>
+<p style={{textAlign:"justify"}}><strong><span>9.1.2 Analysis and evaluation&nbsp;</span></strong></p>
+<p></p>
+<p style={{textAlign:"justify"}}><span>The organization shall analyze and evaluate appropriate data and information arising from monitoring and measurement, including the results of verification activities related to Pre Requisite Programs(PRPs) and the hazard control plan, the internal audits and external audits.&nbsp;</span></p>
+<p></p>
+<p style={{textAlign:"justify"}}><span>The analysis shall be carried out</span></p>
+<p></p>
+<p style={{textAlign:"justify"}}><span>a) to confirm that the overall performance of the system meets the planned arrangements and the FSMS requirements established by the organization</span></p>
+<p style={{textAlign:"justify"}}><span>b) to identify the need for updating or improving the FSMS</span></p>
+<p style={{textAlign:"justify"}}><span>c) to identify trends which indicate a higher incidence of potentially unsafe products or process failures</span></p>
+<p style={{textAlign:"justify"}}><span>d) to establish information for planning of the internal audit programme related to the status and importance of areas to be audited</span></p>
+<p style={{textAlign:"justify"}}><span>e) to provide evidence that corrections and corrective actions are effective.&nbsp;</span></p>
+<p></p>
+<p style={{textAlign:"justify"}}><span>The results shall be reported to top management and used as input to the management review (see 9.3) and the updating of the FSMS.&nbsp;</span></p>
+<p></p>
+<p style={{textAlign:"justify"}}><em><span>Methods to analyze data can include statistical techniques.&nbsp;</span></em></p>
+<p></p>
+<p style={{textAlign:"justify"}}><strong><span>9.2 Internal audit&nbsp;</span></strong></p>
+<p></p>
+<p style={{textAlign:"justify"}}><strong><span>9.2.1</span></strong><span>&nbsp;The organization shall conduct internal audits at planned intervals to provide information on whether the FSMS:&nbsp;</span></p>
+<p></p>
+<p style={{textAlign:"justify"}}><span>a) conforms to:&nbsp;</span></p>
+<p></p>
+<p style={{textAlign:"justify"}}><span>1) the organization&rsquo;s own requirements for its FSMS</span></p>
+<p style={{textAlign:"justify"}}><span>2) the requirements of this document</span></p>
+<p></p>
+<p style={{textAlign:"justify"}}><span>b) is effectively implemented and maintained.&nbsp;</span></p>
+<p></p>
+<p style={{textAlign:"justify"}}><strong><span>9.2.2&nbsp;</span></strong><span>The organization shall</span></p>
+<p></p>
+<p style={{textAlign:"justify"}}><span>a) plan, establish, implement and maintain (an) audit programme(s), including the frequency, methods, responsibilities, planning requirements and reporting, which shall take into consideration the importance of the processes concerned, changes in the FSMS, and the results of monitoring, measurement and previous audits</span></p>
+<p></p>
+<p style={{textAlign:"justify"}}><span>b) define the audit criteria and scope for each audit;&nbsp;</span></p>
+<p></p>
+<p style={{textAlign:"justify"}}><span>c) select competent auditors and conduct audits to ensure objectivity and the impartiality of the audit process</span></p>
+<p></p>
+<p style={{textAlign:"justify"}}><span>d) ensure that the results of the audits are reported to the food safety team and relevant management</span></p>
+<p></p>
+<p style={{textAlign:"justify"}}><span>e) retain documented information as evidence of the implementation of the audit programme and the audit results</span></p>
+<p></p>
+<p style={{textAlign:"justify"}}><span>f) make the necessary correction and take the necessary corrective action within the agreed time frame</span></p>
+<p></p>
+<p style={{textAlign:"justify"}}><span>g) determine if the FSMS meets the intent of the food safety policy and objectives of the FSMS</span></p>
+<p></p>
+<p style={{textAlign:"justify"}}><strong><span>9.3 Management review&nbsp;</span></strong></p>
+<p></p>
+<p style={{textAlign:"justify"}}><strong><span>9.3.1&nbsp;</span></strong><span>General Top management shall review the organization&rsquo;s FSMS, at planned intervals, to ensure its continuing suitability, adequacy and effectiveness.&nbsp;</span></p>
+<p></p>
+<p style={{textAlign:"justify"}}><strong><span>9.3.2&nbsp;</span></strong><span>Management review input The management review shall consider:&nbsp;</span></p>
+<p></p>
+<p style={{textAlign:"justify"}}><span>a) the status of actions from previous management reviews</span></p>
+<p></p>
+<p style={{textAlign:"justify"}}><span>b) changes in external and internal issues that are relevant to the FSMS, including changes in the organization and its context&nbsp;</span></p>
+<p></p>
+<p style={{textAlign:"justify"}}><span>c) information on the performance and the effectiveness of the FSMS, including trends in</span></p>
+<p style={{textAlign:"justify"}}><span>1) result(s) of system updating activities</span></p>
+<p style={{textAlign:"justify"}}><span>2) monitoring and measurement results</span></p>
+<p style={{textAlign:"justify"}}><span>3) analysis of the results of verification activities related to PRPs and the hazard control plan</span></p>
+<p style={{textAlign:"justify"}}><span>4) nonconformities and corrective actions</span></p>
+<p style={{textAlign:"justify"}}><span>5) audit results (internal and external)</span></p>
+<p style={{textAlign:"justify"}}><span>6) inspections (e.g. regulatory, customer)</span></p>
+<p style={{textAlign:"justify"}}><span>7) the performance of external provider</span></p>
+<p style={{textAlign:"justify"}}><span>8) the review of risks and opportunities and of the effectiveness of actions taken to address them&nbsp;</span></p>
+<p style={{textAlign:"justify"}}><span>9) the extent to which objectives of the FSMS have been met</span></p>
+<p></p>
+<p style={{textAlign:"justify"}}><span>d) the adequacy of resources</span></p>
+<p></p>
+<p style={{textAlign:"justify"}}><span>e) any emergency situation, incident or withdrawal/recall that occurred</span></p>
+<p></p>
+<p style={{textAlign:"justify"}}><span>f) relevant information obtained through external (see 7.4.2) and internal (see 7.4.3) communication, including requests and complaints from interested parties</span></p>
+<p></p>
+<p style={{textAlign:"justify"}}><span>g) opportunities for continual improvement. The data shall be presented in a manner that enables top management to relate the information to stated objectives of the FSMS.&nbsp;</span></p>
+<p></p>
+<p style={{textAlign:"justify"}}><strong><span>9.3.3 Management review output&nbsp;</span></strong></p>
+<p></p>
+<p style={{textAlign:"justify"}}><span>The outputs of the management review shall include</span></p>
+<p></p>
+<p style={{textAlign:"justify"}}><span>a) decisions and actions related to continual improvement opportunities</span></p>
+<p></p>
+<p style={{textAlign:"justify"}}><span>b) any need for updates and changes to the FSMS, including resource needs and revision of the food safety policy and objectives of the FSMS.&nbsp;</span></p>
+<p></p>
+<p></p>
+<p style={{textAlign:"center"}}><strong><span>One more clause to go&hellip;</span></strong></p>
+<p style={{textAlign:"center"}}><strong><span>Keep moving&hellip;.</span></strong></p>        
+       <div className="col-12 d-flex justify-content-center align-items-center" ><Button onClick={()=>{
             window.location.assign('/guide');
         }}>Back</Button></div>
     </div>

@@ -2,7 +2,7 @@ import ToLeft from "./ToLeft";
 import ToRight from "./ToRight";
 import Button from 'react-bootstrap/Button';
 
-export default function NormativeReferences({left, leftLink, right}){
+export default function NormativeReferences({left, leftLink, right, rightLink}){
     return(<div className="row"
     >
     <div className="col-2 d-flex justify-content-center" style={{minHeight:"100vh", backgroundColor:"#6BA8F3", boxShadow: '0 0px 26px 0 rgba(0,0,0,0.2), 0 0px 28px 0 rgba(0,0,0,0.19)'}}><ToLeft leftLink={leftLink} title={left}/></div>
@@ -12,7 +12,7 @@ export default function NormativeReferences({left, leftLink, right}){
             window.location.assign('/guide');
         }}>Back</Button></div>
     </div>
-    <div className="col-2 d-flex justify-content-center" style={{backgroundColor:"#6BA8F3", boxShadow: '0 0px 26px 0 rgba(0,0,0,0.2), 0 0px 28px 0 rgba(0,0,0,0.19)'}}><ToRight leftLink="/scope" title={right}/></div>
+    <div className="col-2 d-flex justify-content-center" style={{backgroundColor:"#6BA8F3", boxShadow: '0 0px 26px 0 rgba(0,0,0,0.2), 0 0px 28px 0 rgba(0,0,0,0.19)'}}><ToRight leftLink={rightLink} title={right}/></div>
     </div>);
     
 }

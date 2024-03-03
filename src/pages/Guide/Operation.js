@@ -8,9 +8,10 @@ export default function Operation({left, leftLink, right, rightLink}){
     <div className="col-2 d-flex justify-content-center" style={{minHeight:"100vh", backgroundColor:"#6BA8F3", boxShadow: '0 0px 26px 0 rgba(0,0,0,0.2), 0 0px 28px 0 rgba(0,0,0,0.19)'}}><ToLeft leftLink={leftLink} title={left}/></div>
     <div className="col-8 p-5">
         <h1 className="text-center p-2 bg-info m-1">Operation</h1>
-        <img src="img/start.png" style={{scale:'0.5'}}></img>
+        <div className="d-flex p-5" style={{justifyContent:'center'}}><img src="img/Images/operation.jpg" style={{scale:'1.0'}}></img></div>
+
         <p style={{textAlign:"center"}}><strong><span>This is one of the most important clauses that cover most of the FSMS requirements. So, please go through this carefully!</span></strong></p>
-<p  style={{textAlign:"justify"}}><strong><span>8.1 Operational planning and control</span></strong></p>
+<p  style={{textAlign:"justify"}}><strong><h3>8.1 Operational planning and control</h3></strong></p>
 <p></p>
 <p  style={{textAlign:"justify"}}><span>The organization shall plan, implement, control, maintain and update the processes needed to meet requirements for the realization of safe products, and to implement the actions determined in 6.1, by</span></p>
 <p></p>
@@ -24,11 +25,11 @@ export default function Operation({left, leftLink, right, rightLink}){
 <p></p>
 <p  style={{textAlign:"justify"}}><span>The organization shall ensure that outsourced processes are controlled&nbsp;</span></p>
 <p></p>
-<p  style={{textAlign:"justify"}}><strong><span>8.2 Prerequisite programmes (PRPs)</span></strong></p>
+<p  style={{textAlign:"justify"}}><strong><h3>8.2 Prerequisite programmes (PRPs)</h3></strong></p>
 <p></p>
-<p  style={{textAlign:"justify"}}><strong><span>8.2.1</span></strong><span>&nbsp;The organization shall establish, implement, maintain and update PRP(s) to facilitate the prevention and reduction of contaminants (including food safety hazards) in the products, product processing and work environment.</span></p>
+<p  style={{textAlign:"justify"}}><strong><span><h4>8.2.1</h4></span></strong><span>&nbsp;The organization shall establish, implement, maintain and update PRP(s) to facilitate the prevention and reduction of contaminants (including food safety hazards) in the products, product processing and work environment.</span></p>
 <p></p>
-<p  style={{textAlign:"justify"}}><strong><span>8.2.2</span></strong><span>&nbsp;The PRP(s) shall be:</span></p>
+<p  style={{textAlign:"justify"}}><strong><span><h4>8.2.2</h4></span></strong><span>&nbsp;The PRP(s) shall be:</span></p>
 <p></p>
 <p  style={{textAlign:"justify"}}><span>a) appropriate to the organization and its context with regard to food safety</span></p>
 <p  style={{textAlign:"justify"}}><span>﻿</span></p>
@@ -38,14 +39,14 @@ export default function Operation({left, leftLink, right, rightLink}){
 <p></p>
 <p  style={{textAlign:"justify"}}><span>d) approved by the food safety team.</span></p>
 <p></p>
-<p  style={{textAlign:"justify"}}><strong><span>8.2.3</span></strong><span>&nbsp;When selecting and establishing PRP(s), the organization shall ensure that applicable statutory, regulatory and mutually agreed customer requirements are identified.&nbsp;</span></p>
+<p  style={{textAlign:"justify"}}><strong><span><h4>8.2.3</h4></span></strong><span>&nbsp;When selecting and establishing PRP(s), the organization shall ensure that applicable statutory, regulatory and mutually agreed customer requirements are identified.&nbsp;</span></p>
 <p  style={{textAlign:"justify"}}><span>The organization should consider</span></p>
 <p></p>
 <p  style={{textAlign:"justify"}}><span>a) the applicable part of the&nbsp;</span><strong><span>ISO/TS 22002</span></strong><span>&nbsp;series</span></p>
 <p></p>
 <p  style={{textAlign:"justify"}}><span>b) applicable standards, codes of practice and guidelines.</span></p>
 <p></p>
-<p  style={{textAlign:"justify"}}><strong><span>8.2.4&nbsp;</span></strong><span>When establishing PRP(s) the organization shall consider</span></p>
+<p  style={{textAlign:"justify"}}><strong><span><h4>8.2.4</h4>&nbsp;</span></strong><span>When establishing PRP(s) the organization shall consider</span></p>
 <p></p>
 <p  style={{textAlign:"justify"}}><span>a) construction, lay-out of buildings and associated utilities</span></p>
 <p></p>
@@ -73,7 +74,7 @@ export default function Operation({left, leftLink, right, rightLink}){
 <p></p>
 <p  style={{textAlign:"justify"}}><span>Documented information shall specify the selection, establishment, applicable monitoring and verification of the PRP(s).</span></p>
 <p></p>
-<p  style={{textAlign:"justify"}}><strong><span>8.3 Traceability system</span></strong></p>
+<p  style={{textAlign:"justify"}}><strong><span><h3>8.3 Traceability system</h3></span></strong></p>
 <p></p>
 <p  style={{textAlign:"justify"}}><span>The traceability system shall be able to uniquely identify incoming material from the suppliers and the first stage of the distribution route of the end product. When establishing and implementing the traceability system, the following shall be considered as a minimum</span></p>
 <p></p>
@@ -87,13 +88,13 @@ export default function Operation({left, leftLink, right, rightLink}){
 <p  style={{textAlign:"justify"}}><span>﻿</span></p>
 <p  style={{textAlign:"justify"}}><span>Documented information as evidence of the traceability system shall be retained for a defined period to include, as a minimum, the shelf life of the product. The organization shall verify and test the effectiveness of the traceability system.</span></p>
 <p></p>
-<p  style={{textAlign:"justify"}}><strong><span>8.4 Emergency preparedness and response</span></strong></p>
+<p  style={{textAlign:"justify"}}><strong><span><h3>8.4 Emergency preparedness and response</h3></span></strong></p>
 <p></p>
-<p  style={{textAlign:"justify"}}><strong><span>8.4.1 General</span></strong></p>
+<p  style={{textAlign:"justify"}}><strong><span><h4>8.4.1 General</h4></span></strong></p>
 <p></p>
 <p  style={{textAlign:"justify"}}><span>Top management shall ensure procedures are in place to respond to potential emergency situations or incidents (</span><em><span>natural disasters, environmental accidents, bioterrorism, workplace accidents, public health emergencies and other accidents, interruption of essential services such as water, electricity or refrigeration supply etc.</span></em><span>) that can have an impact on food safety which are relevant to the role of the organization in the food chain.</span></p>
 <p></p>
-<p  style={{textAlign:"justify"}}><strong><span>8.4.2 Handling of emergencies and incidents</span></strong></p>
+<p  style={{textAlign:"justify"}}><strong><span><h4>8.4.2 Handling of emergencies and incidents</h4></span></strong></p>
 <p></p>
 <p  style={{textAlign:"justify"}}><span>The organization shall</span></p>
 <p></p>
@@ -109,9 +110,9 @@ export default function Operation({left, leftLink, right, rightLink}){
 <p></p>
 <p  style={{textAlign:"justify"}}><span>d) review and, where necessary, update the documented information after the occurrence of any incident, emergency situation or tests.</span></p>
 <p></p>
-<p  style={{textAlign:"justify"}}><strong><span>8.5 Hazard control</span></strong></p>
+<p  style={{textAlign:"justify"}}><strong><span><h3>8.5 Hazard control</h3></span></strong></p>
 <p></p>
-<p  style={{textAlign:"justify"}}><strong><span>8.5.1 Preliminary steps to enable hazard analysis</span></strong></p>
+<p  style={{textAlign:"justify"}}><strong><span><h4>8.5.1 Preliminary steps to enable hazard analysis</h4></span></strong></p>
 <p></p>
 <p  style={{textAlign:"justify"}}><strong><span>8.5.1.1 General</span></strong></p>
 <p></p>

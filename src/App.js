@@ -35,9 +35,9 @@ function App() {
           <Route path='register' element={<RegisterForm />}  />
           <Route path='guide' element={<Guide />} />
           <Route path='scope' element={<Scope leftLink="/" left="Home" right="Normative References" rightLink="normativeReferences"/>} />
-          <Route path='normativeReferences' element={<NormativeReferences leftLink="scope" left="Scope" right="Terms & conditions" rightLink="tac"/>} />
+          <Route path='normativeReferences' element={<NormativeReferences leftLink="scope" left="Scope" right="Terms & definitions" rightLink="tac"/>} />
           <Route path='tac' element={<TAC leftLink="normativeReferences" left="Normative References" right="Context of the organization" rightLink="orgContext"/>} />
-          <Route path='orgContext' element={<Context leftLink="tac" left="Terms & conditions" right="Leadership" rightLink="leadership"/>} />
+          <Route path='orgContext' element={<Context leftLink="tac" left="Terms & definitions" right="Leadership" rightLink="leadership"/>} />
           <Route path='leadership' element={<Leadership leftLink="orgContext" left="Context of the organization" right="Planning" rightLink="planning"/>} />
           <Route path='planning' element={<Planning leftLink="leadership" left="Leadership" right="Support" rightLink="support"/>} />
           <Route path='support' element={<Support leftLink="planning" left="Planning" right="Operation" rightLink="operation"/>} />
@@ -46,6 +46,7 @@ function App() {
           <Route path='improvement' element={<Improvement leftLink="evaluation" left="Evaluation" right="Home" rightLink="/"/>} />
           <Route path='process' element={<Process />} />
           <Route path='NCdetector' element={<NCdetector />} />
+          <Route path='help' element={<About />}  />
         </Routes>
       </Router>
 
